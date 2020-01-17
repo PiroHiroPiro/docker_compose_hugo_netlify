@@ -1,0 +1,7 @@
+[build]
+base    = "site/"
+publish = "public"
+command = "hugo --minify --gc --enableGitInfo"
+
+[context.production.environment]
+HUGO_VERSION = "0.62.2"
