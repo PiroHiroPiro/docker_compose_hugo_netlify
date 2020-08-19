@@ -31,7 +31,7 @@ $ git push origin master
 Clone repository:
 
 ```console
-$ git clone https://github.com/PiroHiroPiro/docker_template_hugo_netlify.git
+$ git clone --recursive https://github.com/PiroHiroPiro/docker_template_hugo_netlify.git
 $ cd docker_template_hugo_netlify
 ```
 
