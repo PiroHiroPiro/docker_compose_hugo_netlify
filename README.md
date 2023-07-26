@@ -12,7 +12,7 @@ This is a Docker template that provides an environment with [HUGO](https://gohug
 
 Run local:
 
-```console
+```shell
 $ docker-compose up
 ```
 
@@ -22,7 +22,7 @@ Go to `http://localhost:1313` and you'll see the website.
 
 Deploy to [Netlify](https://www.netlify.com/):
 
-```console
+```shell
 $ git push origin master
 ```
 
@@ -30,26 +30,26 @@ $ git push origin master
 
 Clone repository:
 
-```console
+```shell
 $ git clone --recursive https://github.com/PiroHiroPiro/docker_template_hugo_netlify.git
 $ cd docker_template_hugo_netlify
 ```
 
 Build images:
 
-```console
+```shell
 $ docker-compose build
 ```
 
 Create a new site:
 
-```console
+```shell
 $ docker-compose run hugo hugo new site .
 ```
 
 Choose [Hugo themes](https://themes.gohugo.io/) and add a theme:
 
-```console
+```shell
 $ git submodule add https://github.com/budparr/gohugo-theme-ananke.git site/themes/ananke
 ```
 
@@ -57,13 +57,13 @@ $ git submodule add https://github.com/budparr/gohugo-theme-ananke.git site/them
 
 Create new Post:
 
-```console
+```shell
 $ docker-compose run hugo hugo new posts/initial-post.md
 ```
 
 Update themes:
 
-```console
+```shell
 $ git submodule update --remote
 ```
 
