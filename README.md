@@ -23,7 +23,7 @@ Go to `http://localhost:1313` and you'll see the website.
 Deploy to [Netlify](https://www.netlify.com/):
 
 ```shell
-$ git push origin master
+$ git push origin main
 ```
 
 ## Install
