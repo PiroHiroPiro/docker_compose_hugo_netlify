@@ -4,4 +4,4 @@ publish = "public"
 command = "hugo --minify --gc --enableGitInfo"
 
 [context.production.environment]
-HUGO_VERSION = "0.62.2"
+HUGO_VERSION = "0.111.3"

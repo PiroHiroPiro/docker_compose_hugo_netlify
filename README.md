@@ -44,7 +44,7 @@ $ docker-compose build
 Create a new site:
 
 ```shell
-$ docker-compose run hugo hugo new site .
+$ docker-compose run hugo new site .
 ```
 
 Choose [Hugo themes](https://themes.gohugo.io/) and add a theme:
@@ -58,7 +58,7 @@ $ git submodule add https://github.com/budparr/gohugo-theme-ananke.git site/them
 Create new Post:
 
 ```shell
-$ docker-compose run hugo hugo new posts/initial-post.md
+$ docker-compose run hugo new posts/initial-post.md
 ```
 
 Update themes:
